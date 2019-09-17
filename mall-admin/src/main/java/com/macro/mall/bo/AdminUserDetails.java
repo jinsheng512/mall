@@ -11,11 +11,12 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 /**
- * SpringSecurity需要的用户详情
- * Created by macro on 2018/4/26.
+ * SpringSecurity需要的用户详情254jhhjjhhj
+ * Created by macro on 2018/4/26.44
  */
 public class AdminUserDetails implements UserDetails {
     private UmsAdmin umsAdmin;
+    private UmsAdmin umsAdmin1;
     private List<UmsPermission> permissionList;
     public AdminUserDetails(UmsAdmin umsAdmin,List<UmsPermission> permissionList) {
         this.umsAdmin = umsAdmin;
