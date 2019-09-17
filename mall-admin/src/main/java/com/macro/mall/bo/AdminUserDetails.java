@@ -17,7 +17,7 @@ import java.util.stream.Collectors;
 public class AdminUserDetails implements UserDetails {
     private UmsAdmin umsAdmin;
     private UmsAdmin umsAdmin9;
-    private UmsAdmin umsAdmin988;
+    private UmsAdmin umsAdmin9888sdfs;
 
     private List<UmsPermission> permissionList;
     public AdminUserDetails(UmsAdmin umsAdmin,List<UmsPermission> permissionList) {
