@@ -29,6 +29,7 @@ public class AdminUserDetails implements UserDetails {
                 .filter(permission -> permission.getValue()!=null)
                 .map(permission ->new SimpleGrantedAuthority(permission.getValue()))
                 .collect(Collectors.toList());
+
     }
 
     @Override
