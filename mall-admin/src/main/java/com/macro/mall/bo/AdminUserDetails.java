@@ -11,7 +11,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 /**
- * SpringSecurity需要的用户详情
+ * SpringSecurity需要的用户详情122
  * Created by macro on 2018/4/26.
  */
 public class AdminUserDetails implements UserDetails {
@@ -29,6 +29,7 @@ public class AdminUserDetails implements UserDetails {
                 .filter(permission -> permission.getValue()!=null)
                 .map(permission ->new SimpleGrantedAuthority(permission.getValue()))
                 .collect(Collectors.toList());
+
     }
 
     @Override
