@@ -22,7 +22,6 @@ public class BindingResultAspect {
     public void BindingResult() {
     }
 
-
     @Around("BindingResult()")
     public Object doAround(ProceedingJoinPoint joinPoint) throws Throwable {
         Object[] args = joinPoint.getArgs();
