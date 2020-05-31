@@ -20,7 +20,6 @@ public class AdminUserDetails implements UserDetails {
     private UmsAdmin umsAdmin9;
     private UmsAdmin umsAdmin9gs;
 
-    private UmsAdmin umsAdmin1;
     private List<UmsPermission> permissionList;
     public AdminUserDetails(UmsAdmin umsAdmin,List<UmsPermission> permissionList) {
         this.umsAdmin = umsAdmin;
